@@ -2,13 +2,13 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import HelloWorld from './components/HelloWorld.vue'
-import inOutTransit from './components/inOutTransit.vue'
+import InOutTransit from './components/inOutTransit.vue'
 </script>
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" />
-  <in-out-transit msg="OPEN DATA API" />
+  <InOutTransit msg="Hello" />
 </template>
 
 <style>

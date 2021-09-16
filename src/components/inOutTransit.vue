@@ -1,12 +1,13 @@
 <script setup>
-import { ref, reactive } from 'vue'
-import axios from 'axios'
+import { ref, reactive, inject } from 'vue'
 
-const dataList = reactive([])
+let dataList = reactive([])
 
 defineProps({
   msg: String,
 })
+
+const axios = inject('$axios')
 
 axios({
   method: 'get',
