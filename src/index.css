@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/adventpro/v11/V8mCoQfxVT4Dvddr_yOwjVmdKpZd.woff2) format('woff2');
+  unicode-range: U+00-40,U+5B-60,U+7B-7E;
+}
+/* latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/adventpro/v11/V8mDoQfxVT4Dvddr_yOwjfWMPbF4Cw.woff2) format('woff2');
+  unicode-range: U+00-40,U+5B-60,U+7B-7E;
+}
+/* latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/adventpro/v11/V8mDoQfxVT4Dvddr_yOwjZGPPbF4Cw.woff2) format('woff2');
+  unicode-range: U+00-40,U+5B-60,U+7B-7E;
+}
+/* latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/adventpro/v11/V8mAoQfxVT4Dvddr_yOwhTqtKA.woff2) format('woff2');
+  unicode-range: U+00-40,U+5B-60,U+7B-7E;
+}
+/* latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/adventpro/v11/V8mDoQfxVT4Dvddr_yOwjcmOPbF4Cw.woff2) format('woff2');
+  unicode-range: U+00-40,U+5B-60,U+7B-7E;
+}
+/* latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/adventpro/v11/V8mDoQfxVT4Dvddr_yOwjeWJPbF4Cw.woff2) format('woff2');
+  unicode-range: U+00-40,U+5B-60,U+7B-7E;
+}
+/* latin */
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/adventpro/v11/V8mDoQfxVT4Dvddr_yOwjYGIPbF4Cw.woff2) format('woff2');
+  unicode-range: U+00-40,U+5B-60,U+7B-7E;
+}
